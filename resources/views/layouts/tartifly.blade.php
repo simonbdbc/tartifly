@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tour Template</title>
+	<title>Tartifly</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -23,32 +23,32 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="{{ url('css/animate.css') }}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="{{ url('css/icomoon.css') }}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="{{ url('css/bootstrap.css') }}">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="{{ url('css/magnific-popup.css') }}">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="{{ url('css/flexslider.css') }}">
 
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="{{ url('css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ url('css/owl.theme.default.min.css') }}">
 
 	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="{{ url('css/bootstrap-datepicker.css') }}">
 	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="{{ url('fonts/flaticon/font/flaticon.css') }}">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{ url('css/style.css') }}">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="{{ url('js/modernizr-2.6.2.min.js') }}"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -70,26 +70,26 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="{{ url('js/jquery.min.js') }}"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="{{ url('js/jquery.easing.1.3.js') }}"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="{{ url('js/bootstrap.min.js') }}"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="{{ url('js/jquery.waypoints.min.js') }}"></script>
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="{{ url('js/jquery.flexslider-min.js') }}"></script>
 	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="{{ url('js/owl.carousel.min.js') }}"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="{{ url('js/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ url('js/magnific-popup-options.js') }}"></script>
 	<!-- Date Picker -->
-	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="{{ url('js/bootstrap-datepicker.js') }}"></script>
 	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="{{ url('js/jquery.stellar.min.js') }}"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="{{ url('js/main.js') }}"></script>
 
 	</body>
 </html>

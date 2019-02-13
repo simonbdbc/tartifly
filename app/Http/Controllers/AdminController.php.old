@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class AdminController extends Controller
+{
+    /**
+     * Index.
+     *
+     * @return View
+     */
+    public function index()
+    {
+        // $voyages = Voyage::all();
+        // var_dump($voyages);die;
+        return view('admin/liste-voyages');
+    }
+
+    /**
+     * form.
+     *
+     * @return View
+     */
+    public function form()
+    {
+        // $voyages = Voyage::all();
+        // var_dump($voyages);die;
+        return view('admin/form-voyages');
+    }
+}

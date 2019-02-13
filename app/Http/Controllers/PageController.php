@@ -26,4 +26,6 @@ class PageController extends Controller
     {
         return view('site/about');
     }
+
+
 }

@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -1892,3 +1892,26 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+.colorlib-nav ul li button {
+    position: relative;
+    font-size: 15px;
+    /* padding: 30px 12px; */
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+.colorlib-nav ul li button:hover, a.colorlib-nav ul li button:active, .colorlib-nav ul li button:focus {
+    color: #FFDD00;
+    outline: none;
+    text-decoration: none;
+}
+
+.colorlib-nav ul li form {
+    display: contents;
+}
